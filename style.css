@@ -171,6 +171,10 @@ progress {
   animation: shake 0.5s;
 }
 
+.selected {
+  border: 2px solid blue;
+}
+
 #exam-cards {
   width: 85%;
   margin: 0 auto;
