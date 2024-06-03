@@ -17,7 +17,7 @@ const words = [
 ];
 
 let currentWord = 0;
-const selectedCards = [];
+let selectedCards = [];
 
 // Функция для обновления отображаемого слова
 function updateWord() {
@@ -47,6 +47,9 @@ function switchWord(direction) {
   }
   updateWord();
 }
+
+updateWord();
+switchWord(0);
 
 // Обработчики событий для кнопок вперед/назад
 document.querySelector('#back').addEventListener('click', () => switchWord(-1));

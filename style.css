@@ -172,7 +172,7 @@ progress {
 }
 
 .selected {
-  border: 2px solid blue;
+  background-color: #98e2e1;
 }
 
 #exam-cards {
